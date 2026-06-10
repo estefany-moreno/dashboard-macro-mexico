@@ -1,0 +1,33 @@
+# Entorno virtual de Python
+venv/
+.venv/
+env/
+
+# Variables de entorno (credenciales)
+env.env
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Datos generados (se recrean con scripts/01_preparar_csv.py)
+data/processed/
+
+# Streamlit
+.streamlit/secrets.toml
